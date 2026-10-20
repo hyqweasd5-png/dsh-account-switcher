@@ -1,0 +1,9 @@
+# Account switcher bundle layer.
+# Installed into a profile, this patch inserts the Host plugin row; the same
+# package's ./client export is mounted on that row by the client module system.
+- insert:
+    - id: account-switcher
+      name: '@local/dsh-account-switcher'
+      config:
+        platformOrigin: https://platform.deepseek.com
+        debug: false
