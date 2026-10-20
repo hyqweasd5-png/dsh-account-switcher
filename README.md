@@ -16,6 +16,16 @@
 
 ## 安装
 
+### 命令行安装（源码）
+
+```bash
+dsh plugin --profile web add github:hyqweasd5-png/dsh-account-switcher
+```
+
+安装后重启一次 DeepSeek Harness。
+
+### 本地路径安装
+
 1. 打开 DSH，进入 **插件** 页。
 2. 点 **添加插件** → **安装第三方插件**。
 3. 在包名/路径输入框中填本目录的绝对路径：
